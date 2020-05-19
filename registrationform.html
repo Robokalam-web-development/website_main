@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="ig.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>ROBOKALAM</header>
+      <form>
+        <div class="input-field">
+          <input type="text" required>
+          <label>Parent's Email ID</label>
+        </div>
+        <div class="input-field">
+          <input type="text" required>
+          <label>Parent's Name</label>
+        </div>
+        <div class="input-field">
+          <input type="text" required>
+          <label>Parent's Mobile</label>
+        </div>
+        <div class="input-field">
+          <input type="text" required>
+          <label>Kid's Name</label>
+        </div>
+        <div class="select" >
+            <label>Kid's Grade:</label>
+            <select id="Kidsgrade">
+            <option value="Grade 1">Grade 1</option>
+            <option value="Grade 2-3">Grade 2-3</option>
+            <option value="Grade 4-6">Grade 4-6</option>
+            <option value="Grade 7-9">Grade 7-9</option>
+        </select>
+        <br><br>
+        </div>
+        <div class="radio">
+          <label>Do you have laptop/PC at home for class?</label>
+          <br><br>
+          <input type="radio" value="Yes" name="gender"checked > Yes
+          <input type="radio" value="No" name="gender"> No
+        </div>
+        <div class="button">
+          <div class="inner">
+          </div>
+          <button>REGISTER</button>
+        </div>
+      </form>
+      <div class="login">
+        Already a member? <a href="#">Login here</a>
+      </div>
+    </div>
+  </body>
+</html>
