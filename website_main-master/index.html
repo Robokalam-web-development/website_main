@@ -12,14 +12,19 @@
     <!-- adding custom css -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
-</head>
+	<!-- LMS addition-->
+	<link href="./css/style2.css" rel="stylesheet" type="text/css"/>
+	<link href="./css/style_card.css" rel="stylesheet" type="text/css"/>		
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	
+	
+	</head>
 
 <body>
-
     <header>
-        <!-- navbar -->
+    	<!-- navbar -->
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#"><img src="./assets/logo.png" class="img-fluid logo" alt=""></a>
+			<a class="navbar-brand" href="#"><img src="./assets/logo.png" class="img-fluid logo" alt=""></a>
             <button class="navbar-toggler p-0" type="button" data-toggle="collapse"
                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -29,47 +34,33 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">AboutUs <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item dropdown">
+					<li class="nav-item">
+						 <a class="nav-link" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						 <a class="nav-link" href="#">Dashboard</a>
+					</li>
+					<li class="nav-item">
+						 <a class="nav-link" href="#">Courses</a>
+					</li>
+					<li class="nav-item">
+						 <a class="nav-link" href="#">Assignments</a>
+					</li>
+					<li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Our courses
+                            My Account
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Robotics</a>
-                            <a class="dropdown-item" href="#">Coding</a>
-                            <!-- <div class="dropdown-divider"></div> -->
-                            <a class="dropdown-item" href="#">AI</a>
-                            <a class="dropdown-item" href="#">IoT</a>
+                            <a class="dropdown-item" href="#">Profile</a>
+                            <a class="dropdown-item" href="#">Log Out</a>
                         </div>
                     </li>
                     
-                    
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Categories
-                        </a>
-                        <div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Development</a>
-                            <a class="dropdown-item" href="#">IT & Software</a>
-                            <a class="dropdown-item" href="#">Personal Development</a>
-                            <a class="dropdown-item" href="#">FAQ</a>
-                        </div>
-                    </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
                     <div class="search_field">
-                        <input type="text" name="" id="" placeholder="Search your Needs?">
+                        <input type="text" name="" id="" placeholder="What are you looking for?">
                         <i class="fas fa-search"></i>
                     </div>
                 </form>
@@ -77,181 +68,113 @@
         </nav>
         <!-- navbar -->
         <!-- landing page -->
-        <div class="container-fluid landing-page">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-12">
-                    <img src="./img/landing page.jpg" class="img-fluid" alt="">
-                    <!-- <div class="landing-slider-parent">
-                        <div class="drop-shadow">
-                            <div class="landing-slider">
-                                <div><img src="./assets/backgrounds/landing-slider/1.jpg" class="img-fluid slider-img"
-                                        alt=""></div>
-                                <div>
-                                    <img src="./assets/backgrounds/landing-slider/2.jpg" class="img-fluid slider-img"
-                                        alt="">
-                                </div>
-                                <div>
-                                    <img src="./assets/backgrounds/landing-slider/3.jpg" class="img-fluid slider-img"
-                                        alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="slider-btn">
-                            <span class="prev btn"><img src="./assets/icons/left.png" class="img-fluid" alt=""></span>
-                            <span class="next btn"><img src="./assets/icons/right.png" class="img-fluid" alt=""></span>
-                        </div>
-                    </div> -->
-                    <!-- <img src="./assets/backgrounds/landing-back.png" class="img-fluid" alt=""> -->
-
-                </div>
-                <div class="col-lg-6 col-md-6 col-12 content">
-                    <h3>Robotic Platform</h3>
-                    <ul class="tags">
-                        <li>Robotics</li>
-                        <li>IoT</li>
-                        <li>AI</li>
-                        <li>Live Classes</li>
-                    </ul>
-                    <h1>Learn from Basic to Higher <br><span id="area"></span><span id="cursor">|</span>!</h1>
-                    <p>
-                      Enjoy with the courses as per your choices and gives a great change to your skills. 
-                      Don't be a learner ONLY Be a mentor also and here we help you to be like a mentor.
-                    </p>
-                    <div class="btn-row">
-                        <a href="#">Summer Camp</a>
-                        <a href="#">Afterschool Class</a>
-                        <a href="#"><i class="fas fa-play"></i></a>
-                    </div>
-                    <img src="/img/landing page.jpg" class="img-fluid landing-rotate" alt="">
-                </div>
-            </div>
-        </div>
+        <div class="container-fluid ">
+            
+			<div class="container">
+				<br><br><br><br><br><br><br>
+				<div class="row justify-content-center">
+					<div class="col-md-4 col-xl-3">
+						<div class="card bg-c-blue order-card">
+							<div class="card-block">
+								<h6 class="m-b-20">Total students</h6>
+								<h2 class="text-right"><span>486</span></h2>
+								<p class="m-b-0">Joined today<span class="f-right">351</span></p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-xl-3">
+						<div class="card bg-c-green order-card">
+							<div class="card-block">
+								<h6 class="m-b-20">Courses uploaded</h6>
+								<h2 class="text-right"><span>6</span></h2>
+								<p class="m-b-0">Courses remaining<span class="f-right">3</span></p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-4 col-xl-3">
+						<div class="card bg-c-yellow order-card">
+							<div class="card-block">
+								<h6 class="m-b-20">Total views</h6>
+								<h2 class="text-right"><span>48</span></h2>
+								<p class="m-b-0">Viewed today<span class="f-right">20</span></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-md-3 col-xl-3">
+						<div class="card bg-c-pink order-card">
+							<div class="card-block">
+								<h6 class="m-b-20">More info</h6>
+								<h2 class="text-right"><span>486</span></h2>
+								<p class="m-b-0">Coming soon<span class="f-right">351</span></p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-3 col-xl-3">
+						<div class="card bg-c-brown order-card">
+							<div class="card-block">
+								<h6 class="m-b-20">More info</h6>
+								<h2 class="text-right"><span>486</span></h2>
+								<p class="m-b-0">Coming soon<span class="f-right">351</span></p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-3 col-xl-3">
+						<div class="card bg-c-green2 order-card">
+							<div class="card-block">
+								<h6 class="m-b-20">More info</h6>
+								<h2 class="text-right"><span>486</span></h2>
+								<p class="m-b-0">Coming soon<span class="f-right">351</span></p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+			
+			
+		</div>
+		<br>
+		<br>
+		<br>
         <!-- landing page ends -->
     </header>
-    
-    <main>
-        <div class="section-1"></div>
+   <main>
+        <!--div class="section-1"></div-->
     </main>
-    
- <!---Cards Courses-->
-   <div class="container mb-5" >
-    <h3>
-    
-        <small class="text-muted">Our Courses</small>
-      </h3>
-    <div class="card-deck" style="height:30%;">
-        <div class="card mx-1">
-          <img  class="card-img-top height-30%"  src="/img/iot-technology-courses.webp" alt="card-img-top">
-          <div class="card-body px-4">
-            <p class="font-weight-bold">IOT and ML</p>
-            <p class="card-text" style="font-size: 11px;">Under MD Sajeed Complete Guidance....</p>
-            <p class="card-text"><small class="text-muted">
-                <i class="fas fa-star text-primary"></i>
-                <i class="fas fa-star text-primary"></i>
-                <i class="fas fa-star  text-primary"></i>
-                <i class="fas fa-star text-primary"></i>
-                <i class="fas fa-star-half-alt text-primary"></i>
-               </small>
-               
-          </div>
-        </div>
-        <div class="card mx-1">
-            <img  class="card-img-top  height-30%"  src="/img/robotic3.jpg" alt="card-img-top">
-            <div class="card-body px-4">
-                <p class="font-weight-bold">Robotics Basic</p>
-              <p class="card-text" style="font-size: 11px;">Under Mr. Rajshekhar  Complete Guidance....</p>
-              <p class="card-text"><small class="text-muted">
-                  <i class="fas fa-star text-primary"></i>
-                  <i class="fas fa-star text-primary"></i>
-                  <i class="fas fa-star text-primary"></i>
-                  <i class="fas fa-star text-primary"></i>
-                  <i class="fas fa-star-half-alt text-primary"></i>
-                 </small>
-                 
-            </div>
-          </div>
-          <div class="card mx-1">
-            <img  class="card-img-top  height-30%"  src="/img/Jscript.jpg" alt="card-img-top">
-            <div class="card-body px-4">
-                <p class="font-weight-bold">Javascript</p>
-              <p class="card-text" style="font-size: 11px;">Under Mr. Anuroop Complete Guidance....</p>
-              <p class="card-text"><small class="text-muted">
-                  <i class="fas fa-star  text-primary "></i>
-                  <i class="fas fa-star text-primary"></i>
-                  <i class="fas fa-star text-primary"></i>
-                  <i class="fas fa-star text-primary"></i>
-                  <i class="fas fa-star-half-alt text-primary"></i>
-                 </small>
-                  
-            </div>
-          </div>
-          <div class="card mx-1">
-            <img  class="card-img-top  height-30%"  src="/img/web-p.jpg" alt="card-img-top">
-            <div class="card-body px-4">
-                <p class="font-weight-bold">Web Dev and API</p>
-              <p class="card-text" style="font-size: 11px;">Under Mr. Rajshekhar Complete Guidance....</p>
-              <p class="card-text"><small class="text-muted">
-                  <i class="fas fa-star text-primary"></i>
-                  <i class="fas fa-star text-primary"></i>
-                  <i class="fas fa-star text-primary"></i>
-                  <i class="fas fa-star text-primary"></i>
-                  <i class="fas fa-star-half-alt text-primary"></i>
-                </small>
-                  <span class="d-block"></span>
-                 <span class="float-right">
-                    
-            </div>
-          </div>
-          <div class="card mx-1">
-            <img  class="card-img-top  height-30%"  src="/img/Backend.jpg" alt="card-img-top">
-            <div class="card-body px-4">
-                <p class="font-weight-bold">A Backend Course</p>
-              <p class="card-text" style="font-size: 11px;">Under Mr Anuroop Complete Guidance....</p>
-              <p class="card-text"><small class="text-muted">
-                <i class="fas fa-star text-primary"></i>
-                  <i class="fas fa-star text-primary"></i>
-                  <i class="fas fa-star text-primary"></i>
-                  <i class="fas fa-star text-primary"></i>
-                  <i class="fas fa-star-half-alt text-primary"></i>
-                  </small>
-                  <span class="d-block"></span>
-                 <span class="float-right">
-                    
-            </div>
-          </div>
-      </div>
-   </div>
-   
-     
-
-<!--Footer-->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-12 footer-col one">
                     <img src="./assets/logo.png" class="img-fluid" alt="">
                     <div>
-                        <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                        <i class="fas fa-map-marker-alt"></i>
                         <p>Banjara Hills Hyderabad, Telangana</p>
                     </div>
                     <div>
-                        <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                        <i class="fas fa-mobile-alt"></i>
                         <p>+91 99492 79869, +917981856940</p>
                     </div>
                     <div>
-                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <i class="fas fa-envelope"></i>
                         <p>workshop@robokalam.in</p>
                     </div>
                     <div>
-                        <i class="fas fa-clock" aria-hidden="true"></i>
+                        <i class="fas fa-clock"></i>
                         <p> Mon — Sat: 8.00 AM — 18.00 </p>
                     </div>
                 </div>
                 <div class="col-lg-1 col-md-1 col-12 footer-col"></div>
                 <div class="col-lg-3 col-md-3 col-12 footer-col two">
                     <h3>Quick Links</h3>
-                    <p class="mt-3"><a href="#">Live Classes</a></p>
-                    <p><a href="#">Demo </a></p>
+                    <p class="mt-3"><a href="#">Assaers Club</a></p>
+                    <p><a href="#">Shop</a></p>
                     <p><a href="#">About Us</a></p>
 
                     <h5 class="mt-3 mb-2">Downloads</h5>
@@ -261,25 +184,23 @@
                 <div class="col-lg-1 col-md-1 col-12 footer-col"></div>
                 <div class="col-lg-4 col-md-4 col-12 footer-col three">
                     <h3>Get in Touch</h3>
-                    <span><input type="text" placeholder="Email Address"><i class="fas fa-paper-plane" aria-hidden="true"></i></span>
+                    <span><input type="text" placeholder="Email Address"><i class="fas fa-paper-plane"></i></span>
 
                     <p class="mt-5">Follow Us</p>
                     <div>
-                        <i class="fab fa-google-plus-square" aria-hidden="true"></i>
-                        <i class="fab fa-twitter-square" aria-hidden="true"></i>
-                        <i class="fab fa-facebook-square" aria-hidden="true"></i>
-                        <i class="fab fa-instagram-square" aria-hidden="true"></i>
-                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                        <i class="fab fa-google-plus-square"></i>
+                        <i class="fab fa-twitter-square"></i>
+                        <i class="fab fa-facebook-square"></i>
+                        <i class="fab fa-instagram-square"></i>
+                        <i class="fab fa-linkedin"></i>
                     </div>
                 </div>
             </div>
         </div>
-          
-<!---------Method one: Bubble chat - Start-------------->
-<script src="https://fobi.io/embed.js"></script>
-<div id="embed-fobi"  data-fobi-id="83dyUj5" data-bot-title= "Chat" data-hd-bg= "#2980B9" data-hd-ti-clr= "#FFF" data-ct-pm= "#2980B9" data-ct-sc= "#FFF" data-ct-bot-img= "https://fobi.io/head.png" data-btn-offset= "Right: 30px" data-cb-offset= "Right: 30px" data-btn-img= "https://fobi.io/icon.png" data-btn-bg= "#2980B9" data-cb-height= "400px" data-cb-width= "330px" ></div>
-<!--------Method one: Bubble chat - End ---------------->
     </footer>
+    <div class="copyright container-fluid">
+        <p class="text-light m-0">Copyright <sup>&copy;</sup> ROBOKALAM 2020</p>
+    </div>
 
     <!-- adding jquery -->
     <script src="./js/jquery.min.js"></script>
