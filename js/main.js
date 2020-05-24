@@ -1,4 +1,13 @@
 /*-------------------------------*/
+/* content alert modal appears on page load
+/*-------------------------------*/
+$(document).ready(function () {
+
+    $("#content-alert").modal('show');
+
+});
+
+/*-------------------------------*/
 /* Start type writing 
 /*-------------------------------*/
 var area = document.getElementById('area'),
