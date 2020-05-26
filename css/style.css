@@ -13,8 +13,12 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+html{
+    overflow-x: hidden !important;
+}
 body{
     position: relative;
+    overflow-x: hidden !important;
 }
 .modal.fade .modal-dialog.modal-dialog-zoom {-webkit-transform: translate(0,0)scale(.5);transform: translate(0,0)scale(.5);}
 .modal.show .modal-dialog.modal-dialog-zoom {-webkit-transform: translate(0,0)scale(1);transform: translate(0,0)scale(1);}
@@ -271,8 +275,9 @@ nav .search_field .fas{
 nav .navbar-toggler{
     outline: none;
 }
-nav .navbar-toggler img{
-    opacity: 0.8;
+nav .navbar-toggler i{
+    font-size: 25px !important;
+    color: white;
 }
 
 .section-1{
@@ -379,6 +384,7 @@ nav .navbar-toggler img{
     width: 50%;
     margin: 1rem auto;
     border: 1px solid white;
+    background: white;
 }
 .counter .counts-inner p{
     font-size: 16px;
@@ -732,6 +738,7 @@ footer .footer-col.two p a{
     width: 100px;
     margin: auto;
     border: 5px solid #0098d6;
+    background: #0098d6;
     margin-bottom: 2rem;
 }
 .partners div{
