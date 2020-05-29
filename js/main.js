@@ -1,13 +1,4 @@
 /*-------------------------------*/
-/* content alert modal appears on page load
-/*-------------------------------*/
-$(document).ready(function () {
-
-    $("#content-alert").modal('show');
-
-});
-
-/*-------------------------------*/
 /* Start type writing 
 /*-------------------------------*/
 var area = document.getElementById('area'),
@@ -75,85 +66,4 @@ $('.landing-slider').slick({
     nextArrow: ".landing-slider-parent .slider-btn .next",
     autoplay: true,
     autoplaySpeed: 2000,
-});
-
-
-
-
-// =========================================
-// upcoing event slider
-// =========================================
-
-$('.event-slider').slick({
-    dots: false,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    prevArrow: ".slider-btn .prev",
-    nextArrow: ".slider-btn .next",
-    responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-    ]
-});
-
-// =========================================
-// testemonials slider
-// =========================================
-
-$('.testemonials-slider').slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    responsive: [
-        {
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: true
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        }
-    ]
 });
