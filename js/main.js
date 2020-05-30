@@ -57,13 +57,6 @@ flashing();
 // End type writing
 
 
-// dropdown animation
-$('.navbar .dropdown').hover(function () {
-    $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown(100);
-}, function () {
-    $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp(100);
-});
-
 // landing slider
 $('.landing-slider').slick({
     dots: true,
@@ -99,7 +92,7 @@ $('.event-slider').slick({
                 slidesToShow: 3,
                 slidesToScroll: 1,
                 infinite: true,
-                dots: true
+                dots: false
             }
         },
         {
@@ -157,3 +150,6 @@ $('.testemonials-slider').slick({
         }
     ]
 });
+
+
+

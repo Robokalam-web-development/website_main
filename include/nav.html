@@ -1,0 +1,126 @@
+<nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="../"><img src="./assets/logo.png" class="img-fluid logo" alt=""></a>
+    <button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">AboutUs <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Programs
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Robotics</a>
+                    <a class="dropdown-item" href="#">Coding</a>
+                    <!-- <div class="dropdown-divider"></div> -->
+                    <a class="dropdown-item" href="#">AI</a>
+                    <a class="dropdown-item" href="#">IoT</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Shop
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Buy a Gift</a>
+                    <!-- <div class="dropdown-divider"></div> -->
+                    <a class="dropdown-item" href="#">Donations - single</a>
+                    <a class="dropdown-item" href="#">Price Table</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    My Account
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Cart</a>
+                    <a class="dropdown-item" href="#">Check Out</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Others
+                </a>
+                <div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Contact</a>
+                    <a class="dropdown-item" href="./gallery.html">Gallery</a>
+                    <a class="dropdown-item" href="#">Blog</a>
+                    <a class="dropdown-item" href="#">FAQ</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 d-flex align-items-center">
+            <div class="search_field">
+                <input type="text" name="" id="" placeholder="What are you looking for?">
+                <i class="fas fa-search"></i>
+            </div>
+        </form>
+
+        <div class="ml-3">
+            <a data-toggle="modal" data-target="#login"><i class="fas fa-robot" style="font-size: 18px;"></i></a>
+        </div>
+    </div>
+</nav>
+
+<!-- ======================================= -->
+<!-- login modal -->
+<!-- ======================================= -->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog-zoom modal-lg" role="document">
+        <div class="modal-content">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-0">
+                    <img src="./assets/backgrounds/robot-play1.jpg" class="img-fluid w-100" alt="">
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h3>Login to Robo Kalam</h3>
+                    <i class="far fa-times-circle close" data-dismiss="modal"></i>
+                    <form action="">
+                        <input type="text" placeholder="Username" class="form-control">
+                        <input type="password" placeholder="Password" class="form-control">
+                        <div>
+                            <a href="#" class="text-primary">Forgot Password ?</a>
+                        </div>
+                        <div>
+                            <!-- <input type="button" value="Close" data-dismiss="modal" class="btn btn-sm btn-dark"> -->
+                            <input type="submit" value="Log In" class="btn btn-sm btn-dark">
+                        </div>
+                        <hr class="my-3">
+                        <p class="signup-text m-0 text-center">Don't have an account? <a href="#">Sign Up</a>
+                        </p>
+                        <center style="font-size: 14px;">or</center>
+                        <p class="social-head text-center" style="font-size:14px">Login with</p>
+                        <div class="social-group">
+                            <img src="./assets/icons/google.svg" class="img-fluid" alt="">
+                            <img src="./assets/icons/instagram.svg" class="img-fluid" alt="">
+                            <img src="./assets/icons/linkedin.svg" class="img-fluid" alt="">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    // dropdown animation
+    $('.navbar .dropdown').hover(function () {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideDown(100);
+    }, function () {
+        $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp(100);
+    });
+</script>
