@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat&family=Nunito&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+.about-us{
+    padding: 100px;
+    position: relative;
+    overflow: hidden;
+}
+.about-us h2{
+    /* styling heading */
+    font-family: poppins;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.about-us h2:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    height: 150%;
+    border-bottom: 5px solid #0098d6;
+    width: 100px;
+}
+.img-fluid1{
+    opacity: 0.8;
+ }
+.head1 h3{
+    /* styling heading */
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 2rem;
+    position: relative;
+    text-align: center;
+}
+.head1 h2{
+    /* styling heading */
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    position: relative;
+    text-align: center;
+}
+figure{
+    background-image: linear-gradient(to right, #0098d6 0%, #00cbd6 100%); !important;
+    margin: 0.3em;
+    padding: 2em;
+    height: 94%;
+    font-family: poppins;
+    font-size: 1.5em;
+    text-align: center;
+
+    blockquote{
+        padding: .5em;
+        text-align: center;
+    }
+ }
+.glider-contain{
+    width: 85% !important;
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+.glider-next{
+    left: -50px;
+    top: 50%;
+}
+.glider-prev{
+    right: -40px;
+    top: 50%;
+}
+.fa{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 200px;
+    background: white;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 20px;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+    padding-left:50px;
+    padding-right:50px;
+}
+.column img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    opacity:0.8;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
